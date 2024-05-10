@@ -112,8 +112,8 @@ public class Main {
         float differenceDenis = increasedSalaryDenis - salaryDenis;
         float differenceKristina = increasedSalaryKristina - salaryKristina;
 
-        System.out.println("Маша теперь получает " + increasedSalaryMasha + " рублей. Годовой доход вырос на " + differenceMasha + "рублей." );
-        System.out.println("Денис теперь получает " + increasedSalaryDenis + " рублей. Годовой доход вырос на " + differenceDenis + "рублей." );
-        System.out.println("Кристина теперь получает " + increasedSalaryKristina + " рублей. Годовой доход вырос на " + differenceKristina + "рублей." );
+        System.out.println("Маша теперь получает " + increasedSalaryMasha + " рублей. Годовой доход вырос на " + differenceMasha + " рублей." );
+        System.out.println("Денис теперь получает " + increasedSalaryDenis + " рублей. Годовой доход вырос на " + differenceDenis + " рублей." );
+        System.out.println("Кристина теперь получает " + increasedSalaryKristina + " рублей. Годовой доход вырос на " + differenceKristina + " рублей." );
     }
 }
