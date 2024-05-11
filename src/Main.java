@@ -95,7 +95,7 @@ public class Main {
 
         System.out.println("худея на 250 грамм в день потребуется " + firstDiet + " дней.");
         System.out.println("худея на 500 грамм в день потребуется " + secondDiet + " дней.");
-        System.out.printf("в среднем потребуется %s дней.%n", averageDiet);
+        System.out.printf("в среднем потребуется %s дней.%n", averageDiet );
 
 
 //        Задача 8
