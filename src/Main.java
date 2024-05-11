@@ -91,9 +91,12 @@ public class Main {
 
         byte firstDiet = (byte) (summaryWeight / loseWeightPerDay1);
         byte secondDiet = (byte) (summaryWeight / loseWeightPerDay2);
+        byte averageDiet = (byte) (summaryWeight / ((loseWeightPerDay1 + loseWeightPerDay2) / 2));
 
         System.out.println("худея на 250 грамм в день потребуется " + firstDiet + " дней.");
         System.out.println("худея на 500 грамм в день потребуется " + secondDiet + " дней.");
+        System.out.printf("в среднем потребуется %s дней.%n", averageDiet);
+
 
 //        Задача 8
         System.out.println();
